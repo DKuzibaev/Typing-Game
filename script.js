@@ -5,7 +5,7 @@ const timerElement = document.getElementById('timer');
 const charCountElement = document.getElementById('charCount');
 const timeTakenElm = document.getElementById('timeTaken');
 
-let startTime; // Определяем startTime на уровне доступа для всех функций
+let startTime;
 
 quoteInputElement.addEventListener('input', () => {
     const arrayQuote = quoteDisplayElement.querySelectorAll('span');
@@ -29,7 +29,7 @@ quoteInputElement.addEventListener('input', () => {
 
     if (correct) renderNewQuote();
 
-    // Обновляем количество символов
+    // ГЋГЎГ­Г®ГўГ«ГїГҐГ¬ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г±ГЁГ¬ГўГ®Г«Г®Гў
     const charCount = quoteInputElement.value.length;
     charCountElement.innerText = charCount;
 });

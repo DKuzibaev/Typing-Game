@@ -1,0 +1,1 @@
+Hi, this is my implementation of a game that evaluates the speed of typing text from the keyboard. Of course, everything is implemented in vanilla javascript, but I plan to assemble an entire ecosystem of this kind of games.
